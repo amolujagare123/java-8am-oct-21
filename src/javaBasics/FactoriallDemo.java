@@ -1,3 +1,5 @@
+package javaBasics;
+
 public class FactoriallDemo {
 
     public static void main(String[] args) {

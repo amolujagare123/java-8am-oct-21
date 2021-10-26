@@ -1,3 +1,5 @@
+package javaBasics;
+
 public class IfElseDemo {
 
     public static void main(String[] args) {

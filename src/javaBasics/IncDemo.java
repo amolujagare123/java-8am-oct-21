@@ -1,3 +1,5 @@
+package javaBasics;
+
 public class IncDemo {
 
     public static void main(String[] args) {

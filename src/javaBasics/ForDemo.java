@@ -1,9 +1,10 @@
-public class ForDemo2 {
+package javaBasics;
+
+public class ForDemo {
 
     public static void main(String[] args) {
-// 10 to 1 numbers
 
-        for (int i=10;i>=1 ;i--)
+        for (int i=1;i<=10 ;i++)
         {
             System.out.println(i);
         }

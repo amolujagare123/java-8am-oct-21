@@ -1,3 +1,5 @@
+package javaBasics;
+
 public class FibonanciSeries {
 
     public static void main(String[] args) {

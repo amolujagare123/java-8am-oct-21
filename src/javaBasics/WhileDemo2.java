@@ -1,3 +1,5 @@
+package javaBasics;
+
 public class WhileDemo2 {
 
     public static void main(String[] args) {
