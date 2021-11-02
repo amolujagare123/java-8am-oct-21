@@ -19,8 +19,8 @@ public class Java2 {
 
         Java1 ob = new Java1();
         ob.a1 = 11;
-        ob.d1 = 3.2;
-        ob.c1 = 'q';
+      //  ob.d1 = 3.2;
+        ob.c1 = 'q';//
         ob.str1="amol";
         ob.display1();
     }

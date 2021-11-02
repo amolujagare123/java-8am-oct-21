@@ -2,7 +2,7 @@ package ClassConstructors.pack2;
 
 import ClassConstructors.pack1.Java1;
 
-public class Java3 {
+public class Java3 extends  Java1{
 
     int a3;
     double d3;
@@ -21,10 +21,16 @@ public class Java3 {
 
         Java1 ob = new Java1();
         ob.a1 = 11;
-        ob.d1 = 3.2;
+       // ob.c1 = 'q';
+
+        Java3 ob3 = new Java3();
+        ob3.c1='j'; // c1 -> protected member
+
+
+       /* ob.d1 = 3.2;
         ob.c1 = 'q';
         ob.str1="amol";
-        ob.display1();
+        ob.display1();*/
     }
 
 }
