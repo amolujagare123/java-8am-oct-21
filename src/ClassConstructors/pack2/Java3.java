@@ -4,12 +4,12 @@ import ClassConstructors.pack1.Java1;
 
 public class Java3 extends  Java1{
 
-    int a3;
-    double d3;
-    char c3;
-    String str3;
+    public int a3;
+    public double d3;
+    public char c3;
+    public String str3;
 
-    void display3()
+    public void display3()
     {
         System.out.println("a="+a3);
         System.out.println("d="+d3);
