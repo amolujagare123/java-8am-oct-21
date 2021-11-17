@@ -10,8 +10,19 @@ public class DivisionDemo {
 
         int c = 0;
 
-        c = a/b;
+      try {
+            c = a / b;
+        }
+        catch (Exception e)
+        {
+            System.out.println("inside catch");
 
+            System.out.println(e.getMessage());
+            System.out.println(e.getClass());
+
+            e.printStackTrace();
+
+        }
         System.out.println("c="+c);
 
         System.out.println("end of the program");
