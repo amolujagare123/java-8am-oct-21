@@ -1,6 +1,7 @@
 package CollectionDemos.ArrayListDemos;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo1 {
 
@@ -24,6 +25,11 @@ public class ArrayListDemo1 {
 
         for(int i=0;i<al.size();i++)
             System.out.println(al.get(i));
+
+        System.out.println("Using iterator interface");
+        Iterator itr = al.iterator();
+        while (itr.hasNext())
+            System.out.println(itr.next());
 
     }
 }
