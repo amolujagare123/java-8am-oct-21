@@ -1,4 +1,4 @@
-package CollectionDemos;
+package CollectionDemos.vectorDemo;
 
 import java.util.Enumeration;
 import java.util.Iterator;
